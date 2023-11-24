@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align-last: center;
+    margin-bottom: 2rem;
+}
+
+img{
+    width: 15rem;
+}
+
+#cart-btn,
+#sign-up,
+#log-in,
+#cog{
+    padding: 0.5rem 3rem;
+    background-color: rgb(122, 171, 122);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vh;
+    height: auto;
+    margin: auto;
+}
+
+.container{
+    border: 1px solid rgb(158, 158, 158);
+    display: grid;
+    gap: 1rem;
+    place-items: center;
+    padding: 0.5rem 4rem;
+    width: 40%;
+}
+
+.btn-registry{
+    display: flex;
+    justify-content:start;
+    align-items: start;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.add-to-cart{
+    float: right;
+    width: 30vh;
+    height: auto;
+    margin: 0rem 4rem;
+    text-align: center;
+    border: 2px solid #bebbbb;
+    padding: 0.5rem;
+}
+
+footer{
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
